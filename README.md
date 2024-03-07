@@ -54,4 +54,4 @@ Deadline: April 9, 2024, at 13:00 pm
 
 [Contact Page]
 
-https://sasasabo.github.io/CENG374_Homework/
+https://sasasabo.github.io/CENG374_HW/
