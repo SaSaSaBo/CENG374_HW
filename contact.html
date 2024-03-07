@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOCAELI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Resume</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="details.html">Events Details</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="contactForm">
+            <h2 style="text-align: center;">Get in Touch</h2>
+
+            <div class="tip">
+                <form>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="button" onclick="alert('Message sent!')">Send Message</button>
+                </form>
+            </div>
+
+        </section>
+
+        <div class="tip">
+            <section id="contactInfo">
+                <h2>Contact Information</h2>
+                <p>If you have any questions or concerns, feel free to reach out to us:</p>
+                <p>Email: saakgun@stu.okan.edu.tr</p>
+                <p>Phone: 0 (216) 677 16 30</p>
+                <p>Address: İstanbul Okan Üniversitesi Tuzla Kampüsü, 34959 Akfırat - Tuzla / İSTANBUL</p>
+            </section>
+        </div>
+        
+    </main>
+
+    <footer>
+        <p>&copy;2024 Kocaeli by SaSaS</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,233 @@
+/* styles.css */
+
+/* Reset some default styles for better consistency */
+
+body, h1, h2, p, ul, li, nav {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    min-height: 100vh; /* Set a minimum height of 100% of the viewport height */
+    display: flex;
+    flex-direction: column;
+  }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 5px 0;
+    }
+  
+    nav {
+      background-color: #eee;
+      padding: 10px;
+    }
+    
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+    
+    nav li {
+      margin: 0 15px;
+    }
+    
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    
+    nav a:hover {
+      color: #555;
+    }
+    
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+  
+    #progressInfo {
+      background-color: #f8f8f8;
+      border: 1px solid #ddd;
+      padding: 15px;
+      margin-bottom: 20px;
+      text-align: center; /* Center the content horizontally */
+    }
+    
+    #progressInfo h3 {
+      color: #333;
+    }
+    
+    #progressInfo p {
+      color: #666;
+      margin-bottom: 10px;
+    }
+  
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    button {
+      background-color: #225224;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      display: inline-block; 
+    }
+    
+    button:hover {
+      background-color: #5fcf64;
+    }
+    
+    section {
+      margin-bottom: 20px;
+    }
+    
+    h1 {
+      color: #ccc;
+    }
+    
+    h2 {
+      color: #333;
+    }
+  
+    .tip {
+      overflow: hidden; /* Clear the float to allow text to wrap around the image */
+  }
+  
+  .featured-item img {
+      max-width: 100%;
+      height: auto;
+      float: left; /* Align images to the left */
+      margin-right: 20px; /* Add some margin for spacing */
+      border-radius: 8px; /* Add rounded corners for a square appearance */
+  }
+
+  a {
+    color: #3498db; /* Link rengi */
+    text-decoration: none; /* Altçizgiyi kaldırma */
+    transition: color 0.3s ease-in-out; /* Geçiş efekti */
+
+    /* İsterseniz başka stil özellikleri ekleyebilirsiniz */
+}
+
+a:hover {
+    color: #2980b9; /* Üzerine gelindiğinde link rengi */
+}
+  
+    footer {
+      background-color: #333;
+      color: #fff;
+      font-size: 0.8em;
+      text-align: center;
+      padding: 1em 0;
+      margin-top: auto; /* Push the footer to the bottom */
+    }
+  
+    #contactForm {
+      margin-top: 20px;
+  }
+  
+  #contactForm h2 {
+      color: #333;
+  }
+  
+  #contactForm form {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #f5f5f5;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #contactForm label {
+      display: block;
+      margin-bottom: 8px;
+      color: #333;
+  }
+  
+  #contactForm input,
+  #contactForm textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+  }
+    
+  #eventsTip {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
+    
+    /* Style for individual fitness tips */
+    .tip {
+      background-color: #f8f8f8;
+      border: 1px solid #ddd;
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+    
+    .tip h3 {
+      color: #333;
+    }
+    
+    .tip p {
+      color: #666;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+  }
+
+  .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      transition: transform 0.3s ease-in-out;
+      cursor: pointer;
+  }
+
+  .gallery img:hover {
+      transform: scale(1.1);
+  }
+    
+    .image-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 15px;
+  }
+  
+  .image-container img {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      margin-bottom: 10px;
+  }
+  
+  .image-container p {
+      text-align: center;
+      color: #666;
+      font-size: 14px;
+  }
