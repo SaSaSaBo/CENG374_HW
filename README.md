@@ -39,10 +39,10 @@ Put your project and report in your github account or drive account and share th
 Submit your homework report via Olearn.
 Deadline: April 9, 2024, at 13:00 pm
 
-![image](https://github.com/SaSaSaBo/CENG374_Homework/assets/110893411/6e5d5628-305d-41db-9e6c-9d3552b952d3)
+
 [HomePage]
 
-![image](https://github.com/SaSaSaBo/CENG374_Homework/assets/110893411/60e9046b-3bea-414d-87eb-a75ff834094d)
+
 [Events Page]
 
 
